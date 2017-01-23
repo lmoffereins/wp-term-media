@@ -1,6 +1,6 @@
 # WP Term Media #
 
-WP drop-in to add media attachments to terms, using the `WP_Term_Meta_UI` class by @stuttter
+WP drop-in to add media attachments to terms, using the `WP_Term_Meta_UI` class by [@stuttter](https://github.com/stuttter/)
 
 ## Description ##
 
@@ -20,7 +20,7 @@ To include this drop-in in your project, do the following:
 
 ```php
 // 2/3. In your main project file
-require( $path_to_file . 'class-wp-term-meta-ui.php' );
+require( $path_to_file . 'class-wp-term-meta-ui.php' ); // From @stuttter
 require( $path_to_file . 'class-wp-term-media.php' );
 
 // 4. When hooking in 'init'
@@ -45,4 +45,4 @@ You can contribute to the development of this drop-in by [opening a new issue](h
 
 ## Related ##
 
-See also the `WP_Post_Media` and `WP_Setting_Media` drop-ins, to select media attachments for posts and settings respectively.
+See also the [`WP_Post_Media`](https://github.com/lmoffereins/wp-post-media/) and [`WP_Setting_Media`](https://github.com/lmoffereins/wp-setting-media/) drop-ins, to select media attachments for posts and settings respectively.
